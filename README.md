@@ -27,7 +27,7 @@ Computer Systems graduate (Ain Shams University) with an ITI diploma in Embedded
 ## 🗂️ Lab Index
 
 ### Week 1 — Foundations
-- [Day 01 — Network Devices](./week-1-foundations/day-01-network-devices/)
+- [Day 01 — Network Devices](./Week-1-foundations/Day-01-network-devices/)
 - [Day 02 — IPv4 Addressing](./week-1-foundations/day-02-ipv4-addressing/)
 - [Day 03 — Subnetting](./week-1-foundations/day-03-subnetting/)
 - [Day 04 — Static Routing](./week-1-foundations/day-04-static-routing/)
