@@ -25,13 +25,13 @@
 ### Week 1 — Foundations
 - [Day 01 — Network Devices](./Week-1-foundations/Day-01-network-devices/): device roles, OSI layers, when a switch needs an IP
 - [Day 02 — IPv4 Addressing](./Week-1-foundations/Day-02-ipv4-addressing/): IP, mask and default gateway, verifying with ping
-- [Day 03 — Subnetting](./week-1-foundations/Day-03-subnetting/): VLSM design for four LANs and a point-to-point link
-- [Day 04 — Static Routing](./week-1-foundations/Day-04-static-routing/): static routes and return paths between routers
+- [Day 03 — Subnetting](./Week-1-foundations/Day-03-subnetting/): VLSM design for four LANs and a point-to-point link
+- [Day 04 — Static Routing](./Week-1-foundations/Day-04-static-routing/): static routes and return paths between routers
 
 ### Week 2 — Switching
-- [Day 05 — VLANs](./week-2-switching/day-05-vlans/): VLANs, trunks, allowed VLANs and native VLAN
-- [Day 06 — Inter-VLAN Routing](./week-2-switching/day-06-intervlan-routing/): router-on-a-stick, then SVIs on a multilayer switch
-- [Day 07 — Spanning Tree Protocol](./week-2-switching/day-07-stp/): root bridge election and port roles
+- [Day 05 — VLANs](./Week-2-switching/Day-05-vlans/): VLANs, trunks, allowed VLANs and native VLAN
+- [Day 06 — Inter-VLAN Routing](./Week-2-switching/Day-06-intervlan-routing/): router-on-a-stick, then SVIs on a multilayer switch
+- [Day 07 — Spanning Tree Protocol](./Week-2-switching/Day-07-stp/): root bridge election and port roles
 
 ### Week 3 — Routing (Upcoming)
 - Day 08 — OSPF Single Area 🔒
