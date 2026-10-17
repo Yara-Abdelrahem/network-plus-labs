@@ -6,7 +6,10 @@
 ---
 
 ## 🎯 Objective
-Subnet `192.168.5.0/24` with **VLSM** so that four LANs and one router-to-router link all get a correctly sized subnet. Give each PC the **first** usable address and each router LAN interface the **last** usable address, then verify devices in different subnets communicate through the routers.
+1. Subnet `192.168.5.0/24` with **VLSM**.
+2. Assign first usable addresses to PCs and configure default gateways.
+3. Assign last usable addresses to router interfaces.
+4. **Configure basic static routes so all PCs can ping each other across subnets.**
 
 ## 🖧 Topology
 ![Topology](./topology.png)
@@ -47,14 +50,25 @@ Each next network = previous broadcast + 1.
 ## ⚙️ Key Commands Used
 
 ```bash
-# Verify subnets on router
+# Router interface configuration
+
+Router(config)# interface gigabitethernet 0/0
+Router(config-if)# ip address [last usable IP] [subnet mask]
+Router(config-if)# no shutdown
+
+# Static routing configuration
+
+Router(config)# ip route [destination network] [subnet mask] [next-hop IP]
+
+# Verification
+
 Router# show ip route
 Router# show ip interface brief
-
-# Test from PC
-PC> ping [ip of device in another subnet]
 PC> ipconfig
+PC> ping [remote IP]
 ```
+
+
 
 ## ✅ Verification Results
 - Devices in same subnet ping each other: ✅ / ❌
@@ -70,6 +84,8 @@ PC> ipconfig
 - Use **/30** for a point-to-point link (2 usable addresses).
 -  **First usable** = network + 1. &nbsp; &nbsp;
  **Last usable** = broadcast − 1.
+
+- Routers need **bidirectional** static routes (forward and return paths) for cross-subnet ping traffic to succeed.
 
 ## ❌ Mistakes I Made
 
