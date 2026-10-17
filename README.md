@@ -1,15 +1,11 @@
-# 🌐 Network+ Labs — Cisco Packet Tracer
+# 🌐 Network Labs — Cisco Packet Tracer
 
-> Hands-on networking labs completed as part of my journey to CompTIA Network+ (N10-009)
+> Hands-on networking labs built while studying for the Cisco CCNA (200-301) and building solid networking fundamentals.
 > Built using Cisco Packet Tracer | Based on Jeremy's IT Lab curriculum
 
 ---
 
-## 👩‍💻 About Me
 
-Computer Systems graduate (Ain Shams University) with an ITI diploma in Embedded Systems & Android Automotive. Currently transitioning into Cloud Engineering — these labs build my networking foundation for AWS and cloud infrastructure.
-
----
 
 ## 📊 Progress
 
@@ -20,22 +16,22 @@ Computer Systems graduate (Ain Shams University) with an ITI diploma in Embedded
 | Week 3 | Routing — OSPF, NAT, ACLs | 4 labs | 🔒 Upcoming |
 | Week 4 | Services — DHCP, DNS | 2 labs | 🔒 Upcoming |
 | Week 5 | Wireless & Troubleshooting | 4 labs | 🔒 Upcoming |
-| Week 6 | Exam Prep & Cloud Bridge | 2 labs | 🔒 Upcoming |
+
 
 ---
 
-## 🗂️ Lab Index
+
 
 ### Week 1 — Foundations
-- [Day 01 — Network Devices](./Week-1-foundations/Day-01-network-devices/)
-- [Day 02 — IPv4 Addressing](./week-1-foundations/day-02-ipv4-addressing/)
-- [Day 03 — Subnetting](./week-1-foundations/day-03-subnetting/)
-- [Day 04 — Static Routing](./week-1-foundations/day-04-static-routing/)
+- [Day 01 — Network Devices](./week-1-foundations/day-01-network-devices/): device roles, OSI layers, when a switch needs an IP
+- [Day 02 — IPv4 Addressing](./week-1-foundations/Day-02-ipv4-addressing/): IP, mask and default gateway, verifying with ping
+- [Day 03 — Subnetting](./week-1-foundations/Day-03-subnetting/): VLSM design for four LANs and a point-to-point link
+- [Day 04 — Static Routing](./week-1-foundations/Day-04-static-routing/): static routes and return paths between routers
 
 ### Week 2 — Switching
-- [Day 05 — VLANs](./week-2-switching/day-05-vlans/)
-- [Day 06 — Inter-VLAN Routing](./week-2-switching/day-06-intervlan-routing/)
-- [Day 07 — Spanning Tree Protocol](./week-2-switching/day-07-stp/)
+- [Day 05 — VLANs](./week-2-switching/day-05-vlans/): VLANs, trunks, allowed VLANs and native VLAN
+- [Day 06 — Inter-VLAN Routing](./week-2-switching/day-06-intervlan-routing/): router-on-a-stick, then SVIs on a multilayer switch
+- [Day 07 — Spanning Tree Protocol](./week-2-switching/day-07-stp/): root bridge election and port roles
 
 ### Week 3 — Routing (Upcoming)
 - Day 08 — OSPF Single Area 🔒
@@ -55,19 +51,23 @@ Computer Systems graduate (Ain Shams University) with an ITI diploma in Embedded
 
 ---
 
+## 🧰 Skills Practiced
+
+- Subnetting and **VLSM** address planning
+- IPv4 addressing and default gateways
+- **Static routing**, default routes, and return paths
+- **VLANs**, access ports, **802.1Q trunking**, and native VLANs
+- **Inter-VLAN routing** with router-on-a-stick and multilayer-switch **SVIs**
+- **Troubleshooting** with `show` commands and a near-to-far ping method
+
+---
+
 ## 🛠️ Tools Used
 
 | Tool | Purpose |
 |---|---|
 | Cisco Packet Tracer 9.x | Network simulation |
 | Jeremy's IT Lab (YouTube) | Lab curriculum |
-| CompTIA Network+ N10-009 | Exam objectives reference |
-| Professor Messer | Theory & concept videos |
+| Cisco CCNA 200-301 exam topics | Study and objectives reference |
 
 ---
-
-## 🎯 Goal
-
-Pass CompTIA Network+ → AWS Cloud Practitioner → AWS Solutions Architect Associate
-
-Part of a full Cloud Engineer roadmap validated against industry sources.
