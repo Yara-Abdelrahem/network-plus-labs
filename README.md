@@ -23,8 +23,8 @@
 
 
 ### Week 1 — Foundations
-- [Day 01 — Network Devices](./week-1-foundations/day-01-network-devices/): device roles, OSI layers, when a switch needs an IP
-- [Day 02 — IPv4 Addressing](./week-1-foundations/Day-02-ipv4-addressing/): IP, mask and default gateway, verifying with ping
+- [Day 01 — Network Devices](./Week-1-foundations/day-01-network-devices/): device roles, OSI layers, when a switch needs an IP
+- [Day 02 — IPv4 Addressing](./Week-1-foundations/Day-02-ipv4-addressing/): IP, mask and default gateway, verifying with ping
 - [Day 03 — Subnetting](./week-1-foundations/Day-03-subnetting/): VLSM design for four LANs and a point-to-point link
 - [Day 04 — Static Routing](./week-1-foundations/Day-04-static-routing/): static routes and return paths between routers
 
